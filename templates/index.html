@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Running Form Analyzer</title>
+</head>
+<body>
+    <h1>🏃‍♂️ Upload Your Running Form Video</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" required>
+        <button type="submit">Upload & Analyze</button>
+    </form>
+
+    {% if score is not none %}
+        <h2>🏁 Final Score: {{ score }}/100</h2>
+        <div>
+            <h3>🔍 Breakdown:</h3>
+            <pre>{{ breakdown|safe }}</pre>
+        </div>
+    {% endif %}
+</body>
+</html>

@@ -1,1 +1,10 @@
 venv/
+__pycache__/
+*.pyc
+uploads/
+output/
+*.mp4
+*.avi
+*.mov
+*.xlsx
+.env
