@@ -19,8 +19,7 @@ A Flask-based web application that allows users to upload a running video and re
 
 * **Python**
 * **Flask**
-* **OpenCV** *(inferred)*
-* **MediaPipe** *(inferred)*
+* **MediaPipe** 
 * **Jinja2** (for HTML templating)
 
 ---
